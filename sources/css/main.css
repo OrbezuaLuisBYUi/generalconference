@@ -1,0 +1,12 @@
+.margin{
+    margin: 55px;
+}
+.divleft{
+    float: left;
+    width: 95%;
+}
+.divright{
+    float: right;
+    width: 5%;
+    margin-top: 10px;
+}
