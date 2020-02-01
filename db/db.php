@@ -1,7 +1,7 @@
 <?php
 class Connection{
     public function connection(){
-        $conn_string = "host=ec2-54-174-221-35.compute-1.amazonaws.com port=5432 dbname=d13q26emo3cidu user=cxoizjmlydpszn password=909203503153867e30511c679d7f1f697d3dd561acecfdba7e6caae00809317b";
+        $conn_string = "ec2-107-20-185-16.compute-1.amazonaws.com port=5432 dbname=dc7uon8427ri8b user=nkbzmkzdmejfpa password=1d13fb44c3d78e0ff43df24f7cb9527e96f0be1f1a41273d11bd41eeefe7f401";
         $connection = pg_connect($conn_string)  or die('connection failed');
         return $connection;
     }
